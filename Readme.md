@@ -46,6 +46,10 @@ This endpoint will render a form, In this Form the user will input Youtube link 
   - User will be redirected to **/video_download**
     <br/>
 
-### Endpoint **/audio_download** Method= POST
+### Endpoint **/audio_download**
 
-### Endpoint **/video_download** Method= POST
+## - Method= POST
+
+### Endpoint **/video_download**
+
+## - Method= POST
