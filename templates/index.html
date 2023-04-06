@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
     <title>Convert</title>
   </head>
   <body>
@@ -12,7 +17,16 @@
         <h1>Convert Youtube to MP4 & MP3</h1>
       </nav>
     </header>
-    <a href="http://localhost:5000/audio">Convert Audio</a>
-    <a href="http://localhost:5000/video">Convert Video</a>
+    <main>
+      <div class="container">
+        <div>
+          <h2>Youtube TO</h2>
+        </div>
+        <div class="links">
+          <div class="audio"><a href="http://localhost:5000/audio">MP3</a></div>
+          <div class="video"><a href="http://localhost:5000/video">MP4</a></div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

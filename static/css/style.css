@@ -1,0 +1,56 @@
+html {
+  background-color: lightblue;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.links {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.audio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.audio a {
+  text-align: center;
+  padding: 25px 100px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.video a {
+  text-align: center;
+  text-align: center;
+  padding: 25px 100px;
+  border-radius: 10px;
+  background-color: white;
+}

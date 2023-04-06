@@ -6,6 +6,6 @@
 
     - Run Python main.py
 
-### Run As Flask App:
+### Run as Flask App:
 
     - Run Python app.py
