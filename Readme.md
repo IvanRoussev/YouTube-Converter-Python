@@ -1,5 +1,7 @@
 # Convert Youtube Videos to MP4 or MP3
 
+I made this app to be able to convert youtube videos into mp4 or mp3 files easilly and efficiently. There is a webapp or a command line interface that you can use. The webapp is built using the Flask Framework for Python. The command line is built using plain python.
+
 ## How to use
 
 ### If you want to use in command Line:
