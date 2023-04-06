@@ -20,6 +20,7 @@ This endpoint is the landing page, On This landing page there is two links Depen
   - Clicking MP3 will redirect you to **/audio**
 - **MP4**
   - Clicking MP4 will redirect you to **/video**
+    <br/>
 
 ### Endpoint: **/audio**
 
@@ -31,6 +32,7 @@ This endpoint will render a form, In this Form the user will input Youtube link 
 
 - **On Submit Click**
   - User will be redirected to **/audio_download**
+    <br/>
 
 ### Endpoint: **/video**
 
@@ -42,3 +44,8 @@ This endpoint will render a form, In this Form the user will input Youtube link 
 
 - **On Submit Click**
   - User will be redirected to **/video_download**
+    <br/>
+
+### Endpoint **/audio_download** Method= POST
+
+### Endpoint **/video_download** Method= POST
