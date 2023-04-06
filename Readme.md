@@ -6,11 +6,13 @@ I made this app to be able to convert youtube videos into mp4 or mp3 files easil
 
 ### If you want to use in command Line:
 
-    - Run Python main.py
+    - Run in command line:
+      - Python main.py
 
 ### Run as Flask App:
 
-    - Run Python app.py
+    - Run in terminal:
+      - Python app.py
 
 ### Run as Docker Container:
 
