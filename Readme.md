@@ -49,7 +49,12 @@ This endpoint will render a form, In this Form the user will input Youtube link 
 ### Endpoint **/audio_download**
 
 - Method= POST
+- This endpoint will download the Youtube video as MP3
+- Downloaded to working directory
+-
 
 ### Endpoint **/video_download**
 
 - Method= POST
+- This endpoint will download the Youtube video as MP4
+- Downloaded to working directory
