@@ -21,4 +21,16 @@ This endpoint is the landing page, On This landing page there is two links Depen
 - **MP4**
   - Clicking MP4 will redirect you to **/video**
 
-### Endpoint:
+### Endpoint: **/audio**
+
+This endpoint will render a form, In this Form the user will input Youtube link to any video or audio that they want converted to MP3
+
+- **On Submit Click**
+  - User will be redirected to **/audio_download**
+
+### Endpoint: **/video**
+
+This endpoint will render a form, In this Form the user will input Youtube link to any video that they want converted to MP4
+
+- **On Submit Click**
+  - User will be redirected to **/video_download**
