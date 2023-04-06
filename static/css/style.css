@@ -80,3 +80,33 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.form input[type='text'] {
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form input[type='submit'] {
+  height: 40px;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}

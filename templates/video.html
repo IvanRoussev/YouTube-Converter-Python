@@ -7,7 +7,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="{{ url_for('static', filename='css/convert.css') }}"
+      href="{{ url_for('static', filename='css/style.css') }}"
     />
     <title>Convert</title>
   </head>
@@ -17,7 +17,7 @@
         <h1>Convert Youtube to MP4 & MP3</h1>
       </nav>
     </header>
-    <form action="/video_download" method="post">
+    <form class="form" action="/video_download" method="post">
       <input type="text" name="video_input" />
       <input type="submit" value="Submit" />
     </form>
