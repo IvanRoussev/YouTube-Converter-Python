@@ -48,8 +48,8 @@ This endpoint will render a form, In this Form the user will input Youtube link 
 
 ### Endpoint **/audio_download**
 
-## - Method= POST
+- Method= POST
 
 ### Endpoint **/video_download**
 
-## - Method= POST
+- Method= POST
