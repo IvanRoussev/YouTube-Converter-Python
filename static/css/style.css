@@ -2,15 +2,12 @@ html {
   background-color: lightblue;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
+a {
   text-decoration: none;
-  color: inherit;
 }
 
 .container {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +15,7 @@ a:active {
 }
 
 .links {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   gap: 100px;
@@ -40,6 +37,11 @@ a:active {
   background-color: white;
 }
 
+.audio a:hover {
+  background-color: rgba(255, 255, 255, 0.548);
+  transition: height 0.5s ease-out 0s;
+}
+
 .video {
   display: flex;
   align-items: center;
@@ -53,4 +55,28 @@ a:active {
   padding: 25px 100px;
   border-radius: 10px;
   background-color: white;
+}
+
+.video a:hover {
+  background-color: rgba(255, 255, 255, 0.548);
+  transition: height 0.5s ease-out 0s;
+}
+
+body {
+  margin: 0;
+}
+header {
+  background-color: #0c5c91;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
 }

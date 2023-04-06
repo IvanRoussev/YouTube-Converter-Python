@@ -10,10 +10,6 @@ def index():
     return render_template('index.html')
 
 
-
-
-
-
 @app.route('/audio')
 def audio():
     return render_template('audio.html')
