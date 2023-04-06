@@ -12,13 +12,13 @@
 
 ## How it Works
 
-### Endpoint: /
+### Endpoint: **/**
 
 This endpoint is the landing page, On This landing page there is two links Depending on which format you want to convert to
 
-- MP3
-  - Clicking MP3 will redirect you to /audio
-- MP4
-  - Clicking MP4 will redirect you to /video
+- **MP3**
+  - Clicking MP3 will redirect you to **/audio**
+- **MP4**
+  - Clicking MP4 will redirect you to **/video**
 
 ### Endpoint:
