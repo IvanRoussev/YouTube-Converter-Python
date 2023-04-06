@@ -44,7 +44,7 @@ def downloadMp3(link):
 
 
 
-def main():
+def main(link):
     userInput = input('Convert Youtube to | MP4 or MP3 |  ')
     videoLink = getLink()
     if userInput.upper() == 'MP4':
