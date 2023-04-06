@@ -12,6 +12,14 @@ I made this app to be able to convert youtube videos into mp4 or mp3 files easil
 
     - Run Python app.py
 
+### Run as Docker Container:
+
+    - cd <root directory>
+    - docker build --tag python-docker .
+    - docker run -d -p 5000:5000 python-docker
+
+<br>
+
 ## How it Works
 
 ### Endpoint: **/**
